@@ -1,0 +1,2 @@
+# OpenClashR
+OpenClash Proxy Rules
