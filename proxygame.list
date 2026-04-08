@@ -1,3 +1,35 @@
+#steam补充
+- DOMAIN-SUFFIX,steamserver.net
+- DOMAIN-SUFFIX,msedge.net
 #绝地求生
-- PROCESS-NAME,TslGame.exe,proxy
-- PROCESS-NAME,ExecPubg.exe,proxy
+- DOMAIN-SUFFIX,playbattlegrounds.com
+- DOMAIN-SUFFIX,pubg.com
+- DOMAIN-SUFFIX,kraftonde.com
+- DOMAIN-SUFFIX,battleye.com
+- DOMAIN-SUFFIX,vivox.com
+# === [1] 微软 Azure 业务集群 (大厅/匹配/逻辑) ===
+- IP-CIDR,20.43.187.66/32
+- IP-CIDR,20.43.187.70/32
+- IP-CIDR,20.79.212.54/32
+- IP-CIDR,20.196.246.162/32
+- IP-CIDR,20.196.246.195/32
+- IP-CIDR,20.201.72.108/32
+- IP-CIDR,20.214.91.184/32
+- IP-CIDR,52.158.220.192/32
+# === [2] Valve/Steam 骨干网中继 (SDR/联机中枢) ===
+- IP-CIDR,103.10.124.117/32
+- IP-CIDR,103.10.124.118/32
+- IP-CIDR,146.66.155.69/32
+- IP-CIDR,155.133.238.178/32
+- IP-CIDR,155.133.246.50/32
+- IP-CIDR,155.133.248.37/32
+- IP-CIDR,162.254.193.47/32
+- IP-CIDR,162.254.195.53/32
+- IP-CIDR,185.25.183.163/32
+# === [3] 实际战斗服务器 (Game Server) ===
+- IP-CIDR,35.169.156.109/32
+- IP-CIDR,72.155.73.184/32
+- IP-CIDR,81.70.93.141/32
+- IP-CIDR,85.236.96.163/32
+
+
